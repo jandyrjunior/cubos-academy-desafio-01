@@ -44,7 +44,7 @@ a {
 .main {
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
 }
 
@@ -53,6 +53,18 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: 140px;
+    margin-right: 50px;
+}
+
+.menu-lateral {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 140px;
+    box-shadow: 0px 0px 5px 5px #22222216;
+    border-radius: 4px;
 }
 
 /* ESTILOS DO CARD */
@@ -65,6 +77,7 @@ a {
     width: 730px;
     border-radius: 4px;
     margin-bottom: 40px;
+    box-shadow: 0px 0px 5px 5px #22222216;
 }
 
 .card h3 {
@@ -84,6 +97,7 @@ a {
     margin-left: 24px;
     margin-top: 8px;
     padding: 0;
+    color: #929292;
 }
 
 .card p {
@@ -106,6 +120,225 @@ a {
 .card a:hover {
     background-color: #fe0078;
     color: white;
+}
+
+/*  ESTILOS DO MENU LATERAL */
+
+.menu-lateral input {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 17px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+}
+
+input:focus {
+    border: 1px solid #fe0078;
+    cursor: pointer;
+    outline: none;
+}
+
+.categorias {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    margin-left: 20px;
+    margin-top: 12px;
+    padding-left: 10px;
+    border-left: 2px solid #fe0078;
+}
+
+.topico {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+    border-bottom: 1px dashed #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #545454;
+}
+
+.topico:hover {
+    cursor: pointer;
+    color: #fe0078;
+    border-bottom: 1px dashed #fe0078;
+}
+
+.publicidade {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    margin-left: 20px;
+    margin-top: 24px;
+    margin-bottom: 35px;
+    padding-left: 10px;
+    border-left: 2px solid #fe0078;
+}
+
+.banner {
+    width: 340px;
+    height: 240px;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0px 16px;
+    margin-bottom: 40px;
+}
+
+/* ESTILO DAS POSTAGENS */
+
+.postagem {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px 5px #22222216;
+    margin-left: 143px;
+    margin-right: 47px;
+    width: 730px;
+}
+
+.postagem h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: auto;
+    margin-bottom: 0;
+    color: black;
+    padding: 0;
+}
+
+.postagem .publicacao {
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 24px;
+    margin-top: 8px;
+    padding: 0;
+    color: #929292;
+}
+
+.texto-principal{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 14px 24px 24px 24px;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+.parte-2 {
+    margin-bottom: 46px;
+}
+
+ul {
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 24px;
+    font-size: 14px;
+    color: black;
+}
+
+/* ESTILOS DO FORMULARIO DE COMENTÁRIOS */
+
+.comentarios {
+    margin-top: 56px;
+}
+
+.comentarios h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-left: 143px;
+    margin-right: auto;
+    margin-bottom: 0;
+    color: black;
+    padding: 0;
+}
+
+.container-nome-email {
+    display: flex;
+    margin-left: 143px;
+    margin-top: 24px;
+    margin-right: 47px;
+    justify-content: space-between;
+}
+
+.nome-email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 354px;
+}
+
+.nome-email label {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nome-email input {
+    border-radius: 0;
+    height: 42px;
+    width: 330px;
+    outline: none;
+    border: 1px solid #eeeeee;
+    padding-left: 20px;
+    margin-top: 8px;
+}
+
+.nome-email input:focus {    
+    border: 1px solid #fe0078;
+    cursor: pointer;
+    outline: none;
+}
+
+.area-comentario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 24px;
+    margin-left: 143px;
+}
+
+.area-comentario label {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.area-comentario textarea{
+    border: none;
+    padding: 20px;
+    margin-top: 8px;
+    width: 690px;
+    height: 210px;
+}
+
+.area-comentario textarea:focus {    
+    border: 1px solid #fe0078;
+    cursor: pointer;
+    outline: none;
+}
+
+.comentarios button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fe0078;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 48px auto 64px 760px;
+    cursor: pointer;
 }
 
 /* ESTILOS DO RODAPÉ */

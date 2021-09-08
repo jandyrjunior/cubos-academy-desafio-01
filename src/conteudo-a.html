@@ -1,25 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Logo Ipsum</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Logo Ipsum</title>
 </head>
+
 <body>
-    <header>
-        <div class="logo">
-            <img src="../assets/logo.svg" alt="logo-logoipsum">
+  <header>
+    <div class="logo">
+      <img src="../assets/logo.svg" alt="logo-logoipsum">
+    </div>
+    <div class="links">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+    </div>
+  </header>
+  <div class="main">
+    <div class="container">
+      <div class="postagem">
+        <h3>Lorem ipsum dolor sit amet</h3>
+        <p class="publicacao">26/07/2020 às 00:04 - By: Fulano</p>
+        <img src="../assets/pessoa.png" alt="pessoa-trabalhando-no-computador">
+        <p class="texto-principal">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus quis augue elementum vestibulum. Nam a
+          orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin nibh. Morbi diam lacus, suscipit
+          nec maximus et, tincidunt at quam.
+          <br>
+          <br>
+          Curabitur sit amet euismod mi. Duis dictum vel ipsum vel tempus. Etiam diam nisl, feugiat ornare enim ac,
+          aliquam ultrices erat. Nam tincidunt cursus dui. Integer varius nisi quis dui commodo, vitae euismod nisi
+          elementum. Vivamus tincidunt id massa eget blandit.
+        </p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet consectetur.</li>
+          <ul>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Numquam, similique debitis!</li>
+            <li>Itaque, nam labore?</li>
+          </ul>
+          <li>Quibusdam sapiente velit nulla delectus enim?</li>
+          <li>Officia dolore autem sint aliquid commodi!</li>
+          <li>Eius asperiores deserunt aliquid animi quo.</li>
+          <li>Saepe explicabo blanditiis aspernatur suscipit voluptates.</li>
+        </ul>
+        <p class="texto-principal parte-2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus quis augue elementum vestibulum. Nam a
+          orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin nibh. Morbi diam lacus, suscipit
+          nec maximus et, tincidunt at quam.
+          <br>
+          <br>
+          <i>Curabitur sit amet euismod mi. Duis dictum vel ipsum vel tempus. Etiam diam nisl, feugiat ornare enim ac,
+            aliquam ultrices erat. Nam tincidunt cursus dui. Integer varius nisi quis dui commodo, vitae euismod nisi
+            elementum. Vivamus tincidunt id massa eget blandit.</i>
+          <br>
+          <br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus quis augue elementum vestibulum. Nam a
+          orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin nibh. Morbi diam lacus, suscipit
+          nec maximus et, tincidunt at quam.
+          <br>
+          <br>
+          Curabitur sit amet euismod mi. Duis dictum vel ipsum vel tempus. Etiam diam nisl, feugiat ornare enim ac,
+          aliquam ultrices erat. Nam tincidunt cursus dui. Integer varius nisi quis dui commodo, vitae euismod nisi
+          elementum. Vivamus tincidunt id massa eget blandit.
+        </p>
+      </div>
+      <div class="comentarios">
+        <h3>Comentários</h3>
+        <div class="container-nome-email">
+          <div class="nome-email">
+            <label for="nome">Nome</label>
+            <input type="text">
+          </div>
+          <div class="nome-email">
+            <label for="email">E-mail</label>
+            <input type="email">
+          </div>
         </div>
-        <div class="links">
-            <a href="index.html">Início</a>
-            <a href="sobre.html">Sobre</a>
-            <a href="contato.html">Contato</a>
+        <div class="area-comentario">
+          <label for="comentario">Comentário</label>
+          <textarea name="comentario" id="comentario"></textarea>
         </div>
-    </header>
-    <div class="main"></div>
-    <footer>
-        <p class="footer-text">Site criado por <span>Jandyr Júnior</span> como <span>Desafio do Curso de Desenvolvimento de Sistemas - Cubos Academy</span></p>
-    </footer>
+        <button type="submit" class="botao-comentar">Comentar</button>
+      </div>
+    </div>
+    <div class="menu-lateral">
+      <input type="text" placeholder="Pesquise aqui...">
+      <h4 class="categorias">Categorias</h4>
+      <div class="topico">
+        <p>Tecnologia</p>
+        <p>25</p>
+      </div>
+      <div class="topico">
+        <p>Estilo de vida</p>
+        <p>8</p>
+      </div>
+      <div class="topico">
+        <p>Arte</p>
+        <p>2</p>
+      </div>
+      <div class="topico">
+        <p>Comida</p>
+        <p>12</p>
+      </div>
+      <div class="topico">
+        <p>Aventura</p>
+        <p>9</p>
+      </div>
+      <div class="topico">
+        <p>Moda</p>
+        <p>12</p>
+      </div>
+
+      <h4 class="publicidade">Publicidade</h4>
+      <div class="banner">340x240</div>
+      <div class="banner">340x240</div>
+      <div class="banner">340x240</div>
+    </div>
+  </div>
+  <footer>
+    <p class="footer-text">Site criado por <span>Jandyr Júnior</span> como <span>Desafio do Curso de Desenvolvimento
+        de Sistemas - Cubos Academy</span></p>
+  </footer>
 </body>
+
 </html>
