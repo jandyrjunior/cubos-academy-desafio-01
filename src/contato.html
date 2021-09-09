@@ -1,62 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Logo Ipsum</title>
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="../assets/logo.svg" alt="logo-logoipsum">
-        </div>
-        <div class="links">
-            <a href="index.html">Início</a>
-            <a href="sobre.html">Sobre</a>
-            <a href="contato.html">Contato</a>
-        </div>
-    </header>
-    <div class="main">
-        <div class="card-contato">
 
-        </div>
-        <div class="menu-lateral">
-            <input type="text" placeholder="Pesquise aqui...">
-            <h4 class="categorias">Categorias</h4>
-            <div class="topico">
-              <p>Tecnologia</p>
-              <p>25</p>
-            </div>
-            <div class="topico">
-              <p>Estilo de vida</p>
-              <p>8</p>
-            </div>
-            <div class="topico">
-              <p>Arte</p>
-              <p>2</p>
-            </div>
-            <div class="topico">
-              <p>Comida</p>
-              <p>12</p>
-            </div>
-            <div class="topico">
-              <p>Aventura</p>
-              <p>9</p>
-            </div>
-            <div class="topico">
-              <p>Moda</p>
-              <p>12</p>
-            </div>
-            
-            <h4 class="publicidade">Publicidade</h4>
-            <div class="banner">340x240</div>
-            <div class="banner">340x240</div>
-            <div class="banner">340x240</div>
-          </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Logo Ipsum</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="../assets/logo.svg" alt="logo-logoipsum">
     </div>
-    <footer>
-        <p class="footer-text">Site criado por <span>Jandyr Júnior</span> como <span>Desafio do Curso de Desenvolvimento de Sistemas - Cubos Academy</span></p>
-    </footer>
+    <div class="links">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+    </div>
+  </header>
+  <div class="main">
+    <div class="card-contato">
+      <h3>Contato</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus quis augue elementum vestibulum. Nam a orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin nibh. Morbi diam lacus, suscipit nec maximus et, tincidunt at quam. 
+      </p>
+      <h4>INFORMAÇÕES PARA CONTATO</h4>
+      <div class="container-contato">
+        <img src="../assets/localizacao.png" alt="icone-de-localização">
+        <h5>Endereço</h5>
+      </div>      
+      <p>Av. Tancredo Neves, 2227, Ed. Salvador Prime Caminho das Árvores, Salvador • Bahia</p>
+      <div class="container-contato">
+        <img src="../assets/telefone.png" alt="icone-de-telefone">
+        <h5>Telefone</h5>
+      </div>      
+      <p>(71) 9 9999-9999 | (11) 1 1111-1111</p>
+      <div class="container-contato">
+        <img src="../assets/headset.png" alt="icone-de-headset">
+        <h5>Suporte</h5>
+      </div>      
+      <p>suporte@jandyrjunior.com.br</p>
+      <h4>ENTRE EM CONTATO</h4>
+      <div class="container-contato-nome-email">
+        <div class="contato-nome-email">
+          <label for="nome">Nome</label>
+          <input type="text">
+        </div>
+        <div class="contato-nome-email">
+          <label for="email">E-mail</label>
+          <input type="email">
+        </div>
+      </div>
+      <div class="contato-assunto">
+        <label for="assunto">Assunto</label>
+        <input type="text">
+      </div>
+      <div class="contato-textarea">
+        <label for="texto-contato">Comentário</label>
+        <textarea name="texto-contato" id="texto-contato"></textarea>
+      </div>
+      <button class="botao-enviar">Enviar</button>
+    </div>
+    <div class="menu-lateral">
+      <input type="text" placeholder="Pesquise aqui...">
+      <h4 class="categorias">Categorias</h4>
+      <div class="topico">
+        <p>Tecnologia</p>
+        <p>25</p>
+      </div>
+      <div class="topico">
+        <p>Estilo de vida</p>
+        <p>8</p>
+      </div>
+      <div class="topico">
+        <p>Arte</p>
+        <p>2</p>
+      </div>
+      <div class="topico">
+        <p>Comida</p>
+        <p>12</p>
+      </div>
+      <div class="topico">
+        <p>Aventura</p>
+        <p>9</p>
+      </div>
+      <div class="topico">
+        <p>Moda</p>
+        <p>12</p>
+      </div>
+
+      <h4 class="publicidade">Publicidade</h4>
+      <div class="banner">340x240</div>
+      <div class="banner">340x240</div>
+      <div class="banner">340x240</div>
+    </div>
+  </div>
+  <footer class="footer-contato">
+    <p class="footer-text">Site criado por <span>Jandyr Júnior</span> como <span>Desafio #1 do Curso de Desenvolvimento de
+        Sistemas - Cubos Academy</span></p>
+  </footer>
 </body>
+
 </html>
